@@ -30,3 +30,24 @@ it all depends in how you are going to style the api
 The most important rule is that you interact with http protocol (get,put,patch,post,delete )
 the api documentation is like an menu 
 and then we make the request with http get 
+
+
+
+## query parameters 
+?query=value
+
+we enter the query after the endpoint. This is basically the way to put a value key pair,
+we can also add multiple we add & then the query 
+
+what kind of activites we can pass : education,recreational,social,charity,cooking,relaxation,busywork
+and we need to specify the particapants as well
+
+
+# Path parameters 
+
+the endpoint is a /parameter 
+after the endpoint we can add a parameter 
+endpoint/{path-parameter} which can be a username, a id 
+if i want a special key i just specify it 
+
+https://bored-api.appbrewery.com/activity/5914292 an api example 
